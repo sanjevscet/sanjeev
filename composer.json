@@ -1,0 +1,24 @@
+{
+    "name": "sanjeev/blog",
+    "description": "This is my Blog packages",
+    "authors": [
+        {
+            "name": "Sanjeev Kumar",
+            "email": "skumar01@goavega.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Sanjeev\\Blog\\BlogServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sanjeev\\Blog\\": "src/"
+        }
+     }
+}
